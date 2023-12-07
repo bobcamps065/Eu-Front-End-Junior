@@ -8,6 +8,14 @@ body{
   /* background-color: #444; */
 }
 /* ------------------------------------------------------------ */
+.header {
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   z-index: 1;
+}
+
+
 .container-1{
   display: flex;
   justify-content: center;
@@ -57,4 +65,17 @@ ul, li{
   width: 20px;
   height: 20px;
   margin: 8px;
+}
+
+
+footer {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
